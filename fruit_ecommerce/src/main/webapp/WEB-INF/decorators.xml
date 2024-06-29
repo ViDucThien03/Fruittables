@@ -1,0 +1,32 @@
+<decorators defaultdir="/WEB-INF/views/layout">
+    <decorator name="user" page="user.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+<!--    <decorator name="admin" page="admin.jsp">-->
+<!--        <pattern>/quan-tri/*</pattern>-->
+<!--    </decorator>-->
+    <decorator name="login-register" page="login-register.jsp">
+        <pattern>/login</pattern>
+    </decorator>
+    <decorator name="login-register" page="login-register.jsp">
+        <pattern>/register</pattern>
+    </decorator>
+    <decorator name="login-register" page="login-register.jsp">
+        <pattern>/sendEmail</pattern>
+    </decorator>
+    <decorator name="login-register" page="login-register.jsp">
+        <pattern>/verifyAccount</pattern>
+    </decorator>
+    <decorator name="login-register" page="login-register.jsp">
+        <pattern>/forgotPassword</pattern>
+    </decorator>
+    <decorator name="login-register" page="login-register.jsp">
+        <pattern>/sendCode</pattern>
+    </decorator>
+    <decorator name="login-register" page="login-register.jsp">
+        <pattern>/setup_user</pattern>
+    </decorator>
+    <decorator name="login-register" page="login-register.jsp">
+        <pattern>/api/payment/create_payment</pattern>
+    </decorator>
+</decorators>
